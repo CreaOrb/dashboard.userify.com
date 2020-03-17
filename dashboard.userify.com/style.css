@@ -1046,6 +1046,7 @@ color: #FFFFFFB3;
   color: rgb(129, 129, 129);
   font-weight: 700;
   float: right;
+  margin-top: -20px
 }
 .toggle_pane > span.active{
     border-bottom: 2px solid #408CFE;
@@ -1100,4 +1101,16 @@ color: #FFFFFFB3;
 .usage_display td{
   font-size: 16px;
 
+}
+
+#company-policies .policy{
+  padding:10px;
+  margin-top: 25px;
+  border: 0px solid;
+  width: 20px;
+}
+#company-policies .btn{
+  padding: 15px;
+  font-size: 16px;
+  width: 200px;
 }
