@@ -261,7 +261,11 @@ color: #FFFFFFB3;
 .sidenav_icon  li:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
-.sidenav_icon .icons  .active{
+.sidenav_icon li.active{
+   background-color: rgba(255, 255, 255, 0.1);
+   opacity: 1
+}
+.sidenav_icon .icons .active{
     background-color: rgba(255, 255, 255, 0.2);
     opacity: 1;
 }
@@ -1182,4 +1186,30 @@ color: #FFFFFFB3;
 #company-policies select{
   font-size: 14ox;
   padding: 20px;
+}
+.sweet-alert .sa-button-container{
+  display: inline-block;
+  margin-left: 5px;
+}
+.sweet-alert .sa-button-container .confirm{
+  width: 200px;
+  background: #1D4B97 !important;
+  border: 0px solid;
+  padding: 15px;
+  border-radius: 2px;
+}
+.sweet-alert .sa-button-container .cancel{
+  width: 200px;
+  background: #E9E9E9 !important;
+  border: 0px solid;
+  padding: 15px;
+  border-radius: 2px;
+  color: gray;
+}
+
+button.refresh_company_button:hover{
+  margin-top:32px;
+  margin-right: 15px;
+  color:white;
+
 }
