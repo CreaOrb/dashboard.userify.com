@@ -1038,7 +1038,14 @@ color: #FFFFFFB3;
   color: white;
 }
 .toggle_pane > span{
-  border-bottom: 2px solid #ffffff00;
+  background: #ffffff;
+  color: white;
+  font-weight: 500;
+  padding: 20px;
+  border-bottom: 2px solid rgba(64, 140, 254, 0);
+  color: rgb(129, 129, 129);
+  font-weight: 700;
+  float: right;
 }
 .toggle_pane > span.active{
     border-bottom: 2px solid #408CFE;
@@ -1075,4 +1082,22 @@ color: #FFFFFFB3;
       background: #efefef;
   border: 1px solid white;
   padding-left: 15px;
+}
+
+.usage_display{
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.usage_display th{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.usage_display td{
+  font-size: 16px;
+
 }
