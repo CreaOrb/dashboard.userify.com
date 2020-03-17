@@ -36,7 +36,7 @@
 }
 .panel {
   color: #fff;
-  background: #252525;
+  background: #2a2a2a;
 }
 
 .stage {
@@ -100,7 +100,7 @@ h4 {
 .theme-default .panel,
 .theme-default .modified-bootstrap .panel {
   color: #ddd;
-  background: #23232300;
+  background: #2a2a2a;
   border-radius: 10px;
 }
 
@@ -140,7 +140,7 @@ a:focus {
 }
 
 .qtip-tipsy.shim_qtip {
-  background-color: #000000;
+  background-color: #555555;
 }
 
 .sweet-alert {
@@ -160,7 +160,7 @@ a:focus {
 
 pre {
   color: #ddd;
-  background-color: #000;
+  background-color: #333;
   border: none;
 }
 
@@ -987,13 +987,13 @@ color: #FFFFFFB3;
 }
 
 .company-users .user_row .btn-promote{
-  background:#D1FCDE;
+  background: #333333;
   color: #08C541;
   padding: 10px;
   width: px;
   text-align: center;
   cursor: pointer;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .company-users .user_row .btn-demote{
@@ -1529,16 +1529,15 @@ color: #FFFFFFB3;
 .billing-update-card .form-control{
   padding: 15px;
   border-radius: 5px;
-  background: white;
-   border: 1px solid lightgray;
-   font-size: 18px;
-   width: 340px;
-
+  background: #232323;
+  border: 1px solid #0003;
+  font-size: 18px;
+  width: 340px;
 }
 .billing-update-card .form-control:hover{
-      background: #efefef;
-  border: 1px solid white;
-  padding-left: 15px;
+      background: #1d1d1d;
+      border: 1px solid #0000004a;
+      padding-left: 15px;
 }
 .usage_display:before{
   content: "";
