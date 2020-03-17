@@ -631,9 +631,9 @@ color: #FFFFFFB3;
   color: white;
   cursor: pointer;
   font-size: 14px;
-  width:;
   text-align: center;
   letter-spacing: 2px;
+  font-weight: 500;
 }
 
 
@@ -649,6 +649,7 @@ color: #FFFFFFB3;
   width: 140px;
   text-align: center;
   letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .company-users .textbadge {
@@ -874,6 +875,7 @@ color: #FFFFFFB3;
   background:#000C20 ;
   height: 50px;
   font-style: normal;
+      margin-left: -1.5px;
 }
 .nav-tab-main{
   margin-top: 50px;
@@ -1084,7 +1086,9 @@ color: #FFFFFFB3;
   border: 1px solid white;
   padding-left: 15px;
 }
-
+.usage_display:before{
+  content: "";
+}
 .usage_display{
   border: 1px solid lightgray;
   padding: 10px;
@@ -1113,4 +1117,65 @@ color: #FFFFFFB3;
   padding: 15px;
   font-size: 16px;
   width: 200px;
+}
+
+.mfa{
+  margin-top: 50px;
+  padding: 30px;
+}
+.mfa h1{
+  color: white;
+}
+.mfa h4{
+  color: #ffffffb0;
+  font-weight: 500;
+  margin: px;
+
+}
+.mfa p{
+  color: #00000070;
+  background: white;
+  padding: 20px;
+  width: 65%;
+  font-size: 14px;
+
+}
+.mfa p b{
+  font-weight:700;
+  color: #232323;
+}
+.mfa .mfa-qrcode img{
+  background:white;
+  margin-left: 0px;
+  text-align:;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 5px 20px 0px #80808029;
+}
+.mfa .label-danger{
+  background: #FF5163;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0px;
+  margin-bottom: 10px
+}
+.mfa .totp-token{
+  width: 400px;
+  margin-top: 20px;
+  padding: 25px;
+  background:white;
+  box-shadow: 5px 5px 20px #8080803d;
+}
+.mfa .totp-token:focus{
+  padding-left: 25px;
+  background: white
+}
+.mfa .totp-token:hover{
+  background: white
+}
+
+.mfa .btn{
+  padding: 20px;
+  height: 50px;
+  width: 150px
 }
