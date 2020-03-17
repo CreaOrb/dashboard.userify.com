@@ -324,7 +324,7 @@ color: #FFFFFFB3;
 }
 .profile p{
   background-color: rgb(224, 224, 224);
-  width: 28%;
+  width: 31%;
   color: gray;
   margin-top: 20px;
   padding: 10px;
@@ -461,13 +461,21 @@ color: #FFFFFFB3;
   font-weight: 600;
   padding: 20px;
   margin-top: -10px;
+
+}
+
+.profile .profile_tabs{
+  background: white;
 }
 
 .profile .profile_tabs .btn:hover{
-  background: #408CFE;
+  background: #ffffff;
   color: white;
   font-weight: 500;
   padding: 20px;
+  border-bottom: 2px solid #408CFE;
+  color: #408CFE;
+  font-weight: 700;
 }
 
 .profile .profile_ssh_private_key{
@@ -482,14 +490,29 @@ color: #FFFFFFB3;
 }
 
 .profile .profile_ssh_private_key .avatar_upload{
-  width:100%;
+  width: 400px;
   height: 100px;
   margin-bottom:30px;
+  background: #e2e2e2;
+  opacity: 1;
+  border: 2px dotted lightgray;
+  border-radius:5px;
+  margin-top: 10px;
+}
+
+.profile .profile_ssh_private_key .avatar_upload:hover{
+  background: gray;
 }
 
 .profile .profile_ssh_private_key .btn{
   background: #408CFE;
   color: white;
+  float: ;
+  margin-top: ;
+  padding: 20px;
+}
+.profile .profile_ssh_private_key .btn:hover{
+  padding: 20px;
 }
 
 .profile .btn-save{
