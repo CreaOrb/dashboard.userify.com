@@ -1179,3 +1179,7 @@ color: #FFFFFFB3;
   height: 50px;
   width: 150px
 }
+#company-policies select{
+  font-size: 14ox;
+  padding: 20px;
+}
