@@ -437,7 +437,7 @@ color: #FFFFFFB3;
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 18px;
-  color: #ffffff;
+  color: #000c20;
   width: 100%;
 }
 
@@ -496,7 +496,7 @@ color: #FFFFFFB3;
   width: 400px;
   height: 100px;
   margin-bottom:30px;
-  background: #373737;
+  background: #e6e6e6;
   opacity: 1;
   border: 2px dotted lightgray;
   border-radius:5px;
@@ -504,7 +504,7 @@ color: #FFFFFFB3;
 }
 
 .profile .profile_ssh_private_key .avatar_upload:hover{
-  background: #373737;
+  background: #f1f1f1;
 }
 
 .profile .profile_ssh_private_key .btn{
@@ -1140,7 +1140,7 @@ color: #FFFFFFB3;
   padding: 20px;
   width: 65%;
   font-size: 14px;
-
+  font-weight: 500;
 }
 .mfa p b{
   font-weight:700;
