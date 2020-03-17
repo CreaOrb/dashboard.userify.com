@@ -586,7 +586,9 @@ color: #FFFFFFB3;
   font-size: 20px;
   margin-right: 10px;
 }
-
+.fa-key{
+  font-size: 10px;
+}
 
 .company-users .user_fullname .username{
   font-size: 14px;
@@ -987,4 +989,90 @@ color: #FFFFFFB3;
 {
   background-color: #408cfe;
   border: 2px solid #5a5a5a;
+}
+
+.panel.panel-default{
+  padding: 330px;
+}
+
+.panel h3{
+  font-size: 20px;
+}
+
+
+.billing-wrapper .month-select{
+  padding: 15px;
+  width: 300px;
+  border-radius:5px;
+  background: transparent;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  font-weight: 700;
+}
+.billing-wrapper .month-select:hover{
+    background: #efefef;
+  border: 0px solid lightgray;
+    padding-left: 20px;
+}
+.billing-wrapper .year-select:hover{
+    background: #efefef;
+  border: 0px solid lightgray;
+  padding-left: 20px;
+}
+.billing-wrapper .year-select{
+  padding: 15px;
+  width: 300px;
+  border-radius:5px;
+  background: transparent;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.billing-wrapper .btn{
+  height: 60px;
+  margin-top: 5px;
+  width: 150px;
+  font-size: 14px;
+  color: white;
+}
+.toggle_pane > span{
+  border-bottom: 2px solid #ffffff00;
+}
+.toggle_pane > span.active{
+    border-bottom: 2px solid #408CFE;
+  color: #408CFE;
+  background: white;
+}
+.toggle_pane > span:hover{
+    background: #ffffff;
+  color: white;
+  font-weight: 500;
+  padding: 20px;
+  border-bottom: 2px solid #408CFE;
+  color: #408CFE;
+  font-weight: 700;
+}
+.billing-update-card label{
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.billing-update-card .form-control:focus{
+  padding-left: 15px;
+}
+.billing-update-card .form-control{
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+   border: 1px solid lightgray;
+   font-size: 18px;
+   width: 340px;
+
+}
+.billing-update-card .form-control:hover{
+      background: #efefef;
+  border: 1px solid white;
+  padding-left: 15px;
 }
