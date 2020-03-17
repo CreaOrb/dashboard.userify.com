@@ -265,19 +265,20 @@ color: #FFFFFFB3;
    background-color: rgba(255, 255, 255, 0.1);
    opacity: 1
 }
-.sidenav_icon .icons .active{
-    background-color: rgba(255, 255, 255, 0.2);
-    opacity: 1;
-}
+
 
 .sidenav_icon .icons_bottom{
     position: absolute;
     width: 100%;;
  bottom: 0;
 }
+
+.sidenav_icon  .icons_bottom li:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+}
 .sidenav_icon .icons_bottom li{
     list-style: none;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.11);
     text-align: center;
     padding: 20px 20px;
     height: 70px;
@@ -1206,10 +1207,39 @@ color: #FFFFFFB3;
   border-radius: 2px;
   color: gray;
 }
-
+button.refresh_company_button{
+margin-top: 26px;
+    margin-right: 15px;
+}
 button.refresh_company_button:hover{
-  margin-top:32px;
-  margin-right: 15px;
-  color:white;
+ margin-top: 26px;
+    margin-right: 15px;
+    color: white;
 
+}
+
+[data-title] {
+  outline: #ff000000 dotted 1px; /*optional styling*/
+  font-size: ; /*optional styling*/
+  
+  position: relative;
+  z-index: 99999;
+  opacity: 1;
+  
+}
+
+[data-title]:hover::before {
+  content: attr(data-title);
+  position: absolute;
+  top: -30px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  background: #000c20;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Poppins';
+  white-space: nowrap;
+  z-index: 9999;
+  opacity: 1;
 }
