@@ -16,6 +16,12 @@
 .qtib h5{
   color: white;
 }
+
+.signup.panel h2 a, .login_wrapper h2 a{
+  color: white;
+}
+
+
 .sweet-alert h2{
   color: white;
   border-bottom: 1px solid #0000004f;
@@ -262,7 +268,7 @@ input[type="file"], button,
 
 .form-control {
   color: #999;
-  background-color: #333;
+  background-color: #232323;
   border: 1px solid #222;
 }
 
@@ -316,9 +322,7 @@ input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px #444 inset !important;
 }
 textarea.form-control {
-    border-top: 1px solid #000;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
+    border: 0px solid;
 }
 
 textarea.form-control:hover,
@@ -406,7 +410,7 @@ form select:-webkit-autofill,
 .header-11-sub .signup-form form textarea:-webkit-autofill,
 .header-11-sub .signup-form form select:-webkit-autofill,
 .header-11-sub .signup-form form input[type="text"], .header-11-sub .signup-form form input[type="password"] {
-  background: rgba(0,0,0,.80);
+  background: #232323;
   color: white;
   border: none;
 }
@@ -527,7 +531,11 @@ border-radius: 5px;
   padding-left:30px;
 
 }
-.signup .form-control{padding: 15px;padding-left: 30px;background:#232323;border: 0px solid;border-radius: 5px;font-size: 18px;margin-top: 0;font-weight: 500;}
+.signup .form-control{padding: 15px;
+padding-left: 30px;
+background:#232323;
+border: 0px solid;
+border-radius: 5px;color: #ffffff;font-size: 18px;margin-top: 0;font-weight: 500;}
 
 
 
@@ -548,6 +556,7 @@ border-radius: 5px;
 .login_wrapper {
     width: 100%;
     max-width: 100%;
+    background: #1d1d1d;
 }
 .login_wrapper .col-md-5{
   padding: 0;
@@ -596,7 +605,7 @@ label{
   font-style: 14px;
   font-weight: 600;
   margin: 0px;
-  color: #ffffff47;
+  color: #ffffff;
   text-transform: normal;
 }
 
@@ -618,6 +627,7 @@ label{
   font-size: 18px;
   margin-top: 0;
   font-weight: 500;
+  color: white;
   }
 
 .checkbox{
@@ -792,8 +802,8 @@ color: #FFFFFFB3;
 }
 .profile input:focus{
   padding-left: 30px;
-  background: #eee;
-  color: #000C20;font-weight: 700;
+  background: #232323;
+  color: #ffffff;font-weight: 700;
   font-size: 16px;
 
 }
@@ -1631,7 +1641,8 @@ color: #FFFFFFB3;
 .mfa .btn{
   padding: 20px;
   height: 50px;
-  width: 150px
+  width: 150px;
+  line-height: 1;
 }
 #company-policies select{
   font-size: 14ox;
