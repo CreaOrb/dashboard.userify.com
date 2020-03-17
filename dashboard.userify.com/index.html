@@ -4527,9 +4527,9 @@ b { font-weight: 500; }
   clear: both;
 }
 
-.link { cursor: pointer }
-.link { color: #ff851b ;}
-.link:hover { color: #ffa53b ;}
+.link {cursor: pointer;font-size: 16px;font-weight: 600;;}
+.link {color: #408cfe;}
+.link:hover {color: #1d4b97;}
 .link:visited { color: #df6800 ;}
 .underline { text-decoration: underline; }
 
@@ -13287,10 +13287,12 @@ Promote
             width:15rem;
           }
           #company-policies select {
-            font-size: 1.2rem;
-            height: 2.2rem;
+            font-size: 14px;
+            height: 50px;
             padding: 0;
+            padding-left: 20px;
             border: 1px solid rgba(28, 128, 255, 0.2);
+            background: #e8e8e8;
           }
           #company-policies p {
             margin-bottom: 2rem;
@@ -14527,11 +14529,13 @@ Promote
 
               <style>
               .stage .keypair-links{
-              background: #eaeaea;
-              padding: 2rem;
+              background: #ffffff;
+              padding: 30px;
               color: #33587d;
               margin:4rem 0;
               display:none;
+              border: 1px solid lightgray;
+              border-radius: 10px;
               }
               </style>
 
@@ -15392,7 +15396,6 @@ $.fn.headsup = function(html, alert_theme, closeable, expires, menu) {
   position: fixed;
   width: 30rem;
   max-width: 100%;
-  padding: 0;
   z-index: 5100;
 }
 
