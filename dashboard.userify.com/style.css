@@ -68,7 +68,9 @@ font-weight: 500;
 
 
 
-
+.table.table-striped>tbody>tr:nth-of-type(odd):hover{
+  background: #e9f2ff;
+}
 
 .login_form .panel{
     background: white;
@@ -1239,4 +1241,30 @@ button.refresh_company_button:hover{
   white-space: nowrap;
   z-index: 9999;
   opacity: 1;
+}
+
+.dataTables_length select{
+  padding: px;
+  margin-top: 10px;
+  height: 40px;
+  float: left;
+  position: absolute;
+  left: 10px;
+  background: #d3d3d37d;
+}
+.pagination{
+  padding: 20px;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span{
+  background: #efefef;
+  border: 0px solid;
+  padding: 10px;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span{
+  border: 0px solid;
+  padding: 9px;
+}
+
+div.dataTables_wrapper div.dataTables_length label{
+  display: ;
 }

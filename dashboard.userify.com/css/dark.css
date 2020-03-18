@@ -13,6 +13,28 @@
   background:#2a2a2a;
   margin: 15px 0px 10px 10px;
 }
+.dataTables_length select{
+  padding: px;
+  margin-top: 10px;
+  height: 40px;
+  float: left;
+  background: #232323;
+}
+div.dataTables_wrapper div.dataTables_filter input{
+  background: #232323;
+}
+.pagination{
+  padding: 20px;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span{
+  background: #232323;
+  border: 0px solid;
+  padding: 10px;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span{
+  border: 0px solid;
+  padding: 9px;
+}
 .qtib h5{
   color: white;
 }
@@ -188,7 +210,7 @@ h1, .h1,
 .project_matrix>table.outer_project>tbody>tr.alt,
 .project_matrix>table.outer_project>tbody>tr:nth-of-type(odd),
 .table-striped>tbody>tr:nth-of-type(odd) {
-  background: rgba(0,0,0,.2);
+  background: #7d7d7d33;
 }
 
 .table-striped>tbody>tr:nth-of-type(even) {
@@ -200,7 +222,7 @@ h1, .h1,
 .project_matrix>table.outer_project>tbody>tr:nth-of-type(even):hover,
 .table-striped>tbody>tr:nth-of-type(even):hover,
 .table-striped>tbody>tr:nth-of-type(odd):hover {
-  background-color: rgba(123,51,185,.2);
+  background-color: rgb(29, 29, 29);
 }
 
 input[type="file"], button,
@@ -257,7 +279,7 @@ input[type="file"], button,
 }
 
 .theme-dark .modified-bootstrap .project_header_row td:not(:first-child):active, .theme-dark .modified-bootstrap .project_header_row td:not(:first-child):focus, .theme-dark .modified-bootstrap .project_header_row td:not(:first-child):hover, .project_header_row td:not(:first-child):active, .project_header_row td:not(:first-child):focus, .project_header_row td:not(:first-child):hover {
-  background: #562382;
+  background: #555555;
 }
 
 .perm_switch .perm_root,
@@ -366,7 +388,9 @@ textarea.form-control:active {
 }
 
 .table.table-striped>tbody>tr:nth-of-type(odd) {
-  background: #000;
+  background: #232323;
+  color: #d8d8d8;
+  font-size: 14px;
 }
 
 .project_matrix>table.outer_project>tbody>tr.alt:hover, .project_matrix>table.outer_project>tbody>tr:nth-of-type(odd):hover, .project_matrix>table.outer_project>tbody>tr:nth-of-type(even):hover, .table-striped>tbody>tr:nth-of-type(even):hover, .table-striped>tbody>tr:nth-of-type(odd):hover {
@@ -452,7 +476,9 @@ form select:-webkit-autofill,
 .project_matrix table.outer_project tr.alt:hover, .project_matrix table.outer_project tr:nth-of-type(odd):hover {
   background: #000;
 }
-
+.table.table-striped>tbody>tr:nth-of-type(odd):hover{
+  background: #1c1e22;
+}
 .company-projects .project_menu_project:hover {
   background: #408cfe;
   color: white;
@@ -1277,7 +1303,7 @@ color: #FFFFFFB3;
 
 .panel.file_upload{}
 .cursor-pointer { cursor: pointer }
-.badge-danger{background:#780000; color: white;}
+.badge-danger{background: #ff4136;color: white;}
 
 
 .sidenav_icon{

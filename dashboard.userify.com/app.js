@@ -5248,7 +5248,7 @@ app.click_view_project_servers = function(obj, e, args) {
                 if ( app.edition != "xxxCloud") {
                     project_servers += 1;
                     $(".stage .project_server_count").html(
-                        '<span class="total_servers">Total<br>Servers</span> '
+                        '<span class="total_servers">Total Servers</span> '
                         + do_not_safify(project_servers));
                 }
 
