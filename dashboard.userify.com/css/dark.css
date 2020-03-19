@@ -806,6 +806,7 @@ color: #FFFFFFB3;
   background: #2a2a2a;
   margin-top: 0px;
   height: 100%;
+  z-index: 1111;
 }
 .profile{
   background: #2a2a2a;
@@ -1116,7 +1117,7 @@ color: #FFFFFFB3;
 
 #company-projects .add-project-btn  {
   margin-top: -55px;
-  background: #5578B1;
+  background: #408cfe;
   float: right;
   padding: 15px;
   color: white;
@@ -1311,7 +1312,7 @@ color: #FFFFFFB3;
     background-color: #1D4B97;
     width: 70px;
     height: 100%;
-    z-index: 10;
+    z-index: 11115;
 }
 .sidenav_icon .logo{
     background:#000c204a 0% 0% no-repeat padding-box;
@@ -1494,7 +1495,7 @@ color: #FFFFFFB3;
   padding: 15px;
   width: 300px;
   border-radius:5px;
-  background: transparent;
+  background: #fff0;
   border: 1px solid #dadada1f;
   font-size: 18px;
   font-weight: 700;
