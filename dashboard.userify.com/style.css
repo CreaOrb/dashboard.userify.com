@@ -2,6 +2,9 @@ body{
     background: #3771c6;
     font-family: 'Poppins';
 }
+.modal-header .close {
+    margin-top: -20px;
+}
 
 .signup_form .panel{
   background: white;
@@ -1231,10 +1234,8 @@ margin-top: 26px;
     margin-right: 15px;
 }
 button.refresh_company_button:hover{
- margin-top: 26px;
-    margin-right: 15px;
-    color: white;
-
+ margin-right: 15px;
+ color: white;
 }
 
 [data-title] {
