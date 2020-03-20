@@ -2,6 +2,7 @@ body{
     background: #3771c6;
     font-family: 'Poppins';
 }
+
 .signup_form .panel{
   background: white;
   padding: 50px;
@@ -579,6 +580,23 @@ color: #FFFFFFB3;
 .project_header_row i{
   display: inline-block;
 }
+.fa.fa-sign-out:before{
+  background: #f74a5c;
+  padding: 10px;
+  border-radius:5px;
+  color: white
+}
+.fa-times-circle:before {
+    content: "\00D7";
+}
+.fa-times-circle:hover{
+  color:white;
+}
+div.dataTables_wrapper div.dataTables_length label{
+}
+
+div.dataTables_wrapper div.dataTables_length .input-sm{
+}
 
 .fa.fa-level-up:before{
   content: "\1f845";
@@ -748,7 +766,6 @@ color: #FFFFFFB3;
     line-height: 1;
     padding: 5px;
     position: absolute;
-    width: 100px;
     margin-left: -5px;
 }
 
@@ -847,7 +864,9 @@ color: #FFFFFFB3;
     opacity: 0.8;
 }
 .sidenav_icon  li:hover{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #ffffff33;
+    color: white;
+    opacity: 1;
 }
 .sidenav_icon .icons  .active{
     background-color: rgba(255, 255, 255, 0.2);
@@ -1248,8 +1267,6 @@ button.refresh_company_button:hover{
   padding: px;
   margin-top: 10px;
   height: 40px;
-  float: left;
-  position: absolute;
   left: 10px;
   background: #d3d3d37d;
 }
