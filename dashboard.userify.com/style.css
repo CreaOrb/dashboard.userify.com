@@ -720,8 +720,8 @@ div.dataTables_wrapper div.dataTables_length .input-sm{
 .company-users .textbadge.mfa {
     background: #9408C5;
     border: none;
-
-
+    padding: 5px;
+    margin-top: 70px;
 }
 
 .company-users .textbadge.admin-company {
@@ -1261,13 +1261,11 @@ button.refresh_company_button:hover{
 }
 
 [data-title] {
-  outline: #ff000000 dotted 1px; /*optional styling*/
-  font-size: ; /*optional styling*/
-  
+  outline: #f000 dotted 1px; /*optional styling*/
+  font-size:; /*optional styling*/
   position: relative;
   z-index: 99999;
   opacity: 1;
-  
 }
 
 [data-title]:hover::before {

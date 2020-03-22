@@ -15,15 +15,14 @@ body{
 
 .signup_form .panel{
   background: white;
-  padding: 20px;
+  padding: 30px !important;
   margin: 0px;
-
 }
 .login_wrapper .panel {
     padding: 10px;
 }
 .login_form .panel{
-    padding: 20px;
+    padding: 30px !important;
 }
 .login_content .btn{
        background: #F0A926;
@@ -161,16 +160,17 @@ body{
  }
 
 .fa.fa-sign-out:before{
-  position: absolute;
-  margin-left: -15px;
-  margin-top: -15px;
+  position: fixed;
+  margin-left: -0px;
+  margin-top: -30px;
+  padding: 10px;
 }
 
 
 .main_wrapper{
       background-image: url(back.png);
-      background-size: cover;
-      background-position: right;
+      background-size: cover !important;
+      background-position: bottom !important;
       height: 300px;
       margin-top: 0px;
 }
@@ -334,7 +334,9 @@ input[type="file"], button, .btn.btn-default:not(.permtag){
 .mfa .totp-token{
   width: 300px;
 }
-
+.company-users .textbadge{
+  
+}
 .mfa .btn{
   width: 300px;
  display: block ;
@@ -572,6 +574,38 @@ ul.nav-pills {
     margin-bottom: 30px;
     margin-top: 10px;
 }
+.add_company_button{
+  width: 95% !important;
+}
+.mfa p{
+  width: 90%;
+}
 
+[data-title] {
+  outline: #f000 dotted 1px; /*optional styling*/
+  font-size:; /*optional styling*/
+  position: relative;
+  z-index: 99999;
+  opacity: 1;
+  display: none;
+  background: #ffffff00;
+}
+
+[data-title]:hover::before {
+  content: attr(data-title);
+  position: absolute;
+  top: -30px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  background: #000c2000;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Poppins';
+  white-space: nowrap;
+  z-index: 9999;
+  opacity: 1;
+  display: none;
+}
 
 }            
