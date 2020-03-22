@@ -85,6 +85,7 @@ body{
   left: 0;
   list-style: none;
   padding: 20px;
+  display: block;
 }
 .sidenav_icon .fa-bar:before{
   content: "\f0c9";
@@ -466,5 +467,111 @@ ul.nav-pills {
     white-space: normal;
 
 }
+.headerbar{
+  padding-top: 10px;
+  padding-left: 30px !important;
+  margin-left: 0px !important;
+  width: 100%;
+
+}
+
+.headerbar .project_server_count{
+  float: left !important;
+  margin-top: 10px;
+  margin-left: px;
+  width: ;
+}
+.headerbar .add_project {
+    background: #408cfe;
+    padding: 10px;
+    color: #fff;
+    z-index: 11;
+    height: 70px;
+    line-height: 1.6;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    margin-left: 120px;
+      margin-top: 40px;
+}
+.headerbar .delete_project {
+    background: #fe4060;
+    color: #fff;
+    height: 70px;
+    line-height: 2.3;
+    width: 50px;
+    position: absolute;
+    text-align: center;
+    margin-left: 170px;
+          margin-top: 40px;
+}
+.card {
+  margin: 10px;
+  background: white;
+  padding: 20px;
+  height: 100px;
+}
+.card .add_project {
+  background: #28b62c;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  float: ;
+  left: 10px;
+  bottom: 20px;
+  width: 340px;
+  text-align: center;
+}
+.company-settings .delete_company{
+  background: #f8bb86 !important;
+  position: absolute;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  color: #ff4136;
+}
+.billing-wrapper{
+  width: 360px !important;
+    overflow: scroll;
+}
+.billing-wrapper .month-select{
+  width: 100%;
+}
+.billing-wrapper .year-select{
+  width: 100%;
+  margin-left: 0px;
+}
+.billing-wrapper .btn {
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    float: left !important;
+}
+.billing-usage{
+  width: 100%;
+
+}
+.toggle_pane{
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.panel-title{
+  font-size: 25px !important;
+}
+.billing-update-card .form-control{
+  width: 100%;
+}
+.usage_display {
+  width: 100vh;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
 
 }            

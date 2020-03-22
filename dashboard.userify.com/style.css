@@ -2,6 +2,27 @@ body{
     background: #3771c6;
     font-family: 'Poppins';
 }
+.sidenav_icon .fa-bar{
+  background: #000c20;
+  height: 60px;
+  width: 60px;
+  margin: 0;
+  position: fixed;
+  margin-top: -50px;
+  left: 0;
+  list-style: none;
+  padding: 20px;
+  display: none;
+}
+.sidenav_icon .fa-bar:hover{
+ background-color: #408cfe;;
+}
+.sidenav_icon .fa-bar:before{
+  content: "\f0c9";
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff00;
+}
 .modal-header .close {
     margin-top: -20px;
 }
