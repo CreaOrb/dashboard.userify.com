@@ -1,4 +1,4 @@
-@media (max-width: 768.98px) { 
+@media (max-width: 767.98px) { 
 body{
       
 } 
@@ -71,6 +71,26 @@ body{
   height: 60px;
   z-index: 1111;
   display: ;
+}
+.sidenav_icon{
+  list-style: none;
+}
+.sidenav_icon .fa-bar{
+  background: #000c20;
+  height: 60px;
+  width: 60px;
+  margin: 0;
+  position: fixed;
+  margin-top: -50px;
+  left: 0;
+  list-style: none;
+  padding: 20px;
+}
+.sidenav_icon .fa-bar:before{
+  content: "\f0c9";
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }
 .sidenav_icon .logo {
     background: #000c204a 0% 0% no-repeat padding-box;
@@ -336,27 +356,46 @@ input[type="file"], button, .btn.btn-default:not(.permtag){
   background: white;
   height: 70px !important;
 }
-
+.nav-tab-main{
+  margin-top: 100px;
+}
 div.mainapp-wrapper{
   margin-top: 100px;
 }
+.theme-default div.left_menu{
+  width: 100% !important;
+  margin-left: 0px !important;
+  padding: 10px;
+  padding-top: 30px;
+  width: 230px;
+  position: fixed;
+  background: #fff;
+  height: 100%;
+  padding-bottom: 100px;
+  overflow-y: auto;
+  top: 0;
+  z-index: 1111;
+}
 .nav-justified{
-  width: 100px;
+  width: 100% !important;
+  margin-left: 0px !important;
+  text-align: center;
 }
 .nav-pills.nav-justified{
-  width:100%;
 }
 ul.nav-pills {
     border-bottom: none;
     box-shadow: none;
     position: relative;
     top: 0;
-    margin-top: 10px;
+    display:inline-block;
 }
 #company-projects .add-project-btn{
-      margin-top: -145px;
+      margin-top: -10px !important;
     background: #5578B1;
     float: right;
+    right: 0;
+    margin: 0px;
     padding: 15px;
     color: #fff;
     cursor: pointer;
@@ -364,8 +403,68 @@ ul.nav-pills {
     text-align: center;
     letter-spacing: 2px;
     font-weight: 500;
+    width: 150px;
+    position: fixed;
+    bottom: 0;
+}
+#company-users .add-project-btn{
+     margin-top: -10px !important;
+    background: #5578B1;
+    float: right;
+    right: 0;
+    margin: 0px;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 150px;
+    position: fixed;
+    bottom: 0;
+    z-index: 111;
+}
+.nav-pills li a{
+  padding: 15px;
+  margin:2px !important;
+
+  display:  !important;
 }
 
 
+
+.company-projects .project_menu_project {
+    cursor: pointer;
+    height: 150px;
+    display: inline-block;
+    width: 300px;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px #0000000F;
+}
+
+.user_row{
+  margin: 30px;
+}
+
+.editable-input textarea.form-control.input-large {
+    width: 250px !important;
+    padding-right: 10rem;
+    height: 40px !important;
+    background: #000c2052;
+    color: #fff;
+}
+.editable-input {
+    vertical-align: top;
+    display: inline-block;
+    width: 250px !important;
+    white-space: normal;
+
+}
 
 }            
