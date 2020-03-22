@@ -890,6 +890,7 @@ color: #FFFFFFB3;
     color: white;
     line-height: 2;
     opacity: 0.8;
+    display: block;
 }
 
 .add_company_button{

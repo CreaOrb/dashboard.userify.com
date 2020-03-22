@@ -1,0 +1,371 @@
+@media (max-width: 768.98px) { 
+body{
+      
+} 
+.side_div {
+    background: #408CFE;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: ;
+    height: 50%;
+}
+
+.signup_form .panel{
+  background: white;
+  padding: 20px;
+  margin: 0px;
+
+}
+.login_wrapper .panel {
+    padding: 10px;
+}
+.login_form .panel{
+    padding: 20px;
+}
+.login_content .btn{
+       background: #F0A926;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.login_wrapper .col-md-7 .login_content {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+.signup_page .col-md-7 .login_content {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    width: 300px;
+}
+.login_content h1{
+  font-size: 30px;
+}
+
+.copyright{
+    position: relative;
+    padding: 5px;
+    background: #000c20;
+    margin-top: 500px;
+    font-size: 10px;
+    text-align: center;
+}
+.copyright li{
+  float: none;
+}
+.link{
+  font-size: 12px;
+}
+
+.sidenav_icon{
+  position: fixed;
+  width: 100vh;
+  height: 60px;
+  z-index: 1111;
+  display: ;
+}
+.sidenav_icon .logo {
+    background: #000c204a 0% 0% no-repeat padding-box;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+.sidenav_icon .icons{
+  position: absolute;
+  margin-top: -63px;
+    margin-left:60px;
+    display: inline-block;
+      z-index: 1111;
+}
+.sidenav_icon .icons li{
+        list-style: none;
+    background-color: #00000000;
+    text-align: center;
+    padding: 20px 20px;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    line-height: 2;
+    opacity:1;
+    display: inline-block;
+      z-index: 1111;
+}
+
+.sidenav_icon .icons_bottom {
+    position: absolute;
+    width: 360px;
+    right:90px;
+    float:;
+    display:inline-block;
+    z-index: 1100;
+    opacity: 1;
+    z-index: 1111;
+    margin: 3px;
+}
+.sidenav_icon .icons_bottom li{
+    background-color: #00000000;
+  opacity: 1;
+    display: inline-block;
+      z-index: 1111;
+        text-align: center;
+    padding: 20px 20px;
+    height: 60px;
+    width: 60px;
+}
+.login_form .form-control{
+  font-size: 14px;
+}
+.navbar-fixed-top.app-toolbar.navbar {
+    position: absolute;
+      left: 0;
+      display: ;
+    width: 100%;
+    min-height:60px;
+    background: #fff;
+    z-index: 1111;
+    border-bottom: 0px solid;
+
+}
+ div.app-toolbar.navbar .navbar-nav, div.app-toolbar.navbar .navbar-nav>li{
+   float: left;
+   border-bottom: 0px solid;
+ }
+
+.fa.fa-sign-out:before{
+  position: absolute;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+
+.main_wrapper{
+      background-image: url(back.png);
+      background-size: cover;
+      background-position: right;
+      height: 300px;
+      margin-top: 0px;
+}
+.profile .profile{
+  padding: 0px;
+  margin: 0;
+}
+.profile{padding: 0px;margin: 0px;margin-top: 0px;}
+.profile .profile_tabs{
+  padding: 10px;
+  margin: 0px;
+}
+.profile .profile_tabs span{
+  float:left;
+  padding: 15px;
+  display: block;
+  font-size: 12px;
+  margin:;
+  background-color: #ff0b0b;
+}
+input[type="file"], button, .btn.btn-default:not(.permtag){
+  margin-left: 0px;
+}
+.profile input{
+  width: 300px;
+}
+
+.profile input.avatar_upload, input.avatar_upload{
+ width: 300px;
+    height: 100px;
+    border: 0px solid;
+    border-radius: 10px;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: none !important;
+    background: gray;
+    background-size: cover;
+    opacity: ;
+}
+.profile input.avatar_upload, input.avatar_upload:focus{
+ width: 300px;
+    height: 100px;
+    border: 0px solid;
+    border-radius: 10px;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: none !important;
+    background: gray;
+    background-size: cover;
+    opacity: ;
+}
+.profile input.avatar_upload:hover{
+   width: 300px;
+ height: 100px;
+ border: 0px solid;
+ border-radius: 10px;
+ color: #000;
+ border-radius: 5px;
+ padding: 10px;
+ box-shadow: none !important;
+ background: gray;
+ opacity:;
+}
+.profile input.avatar_upload, input.avatar_upload:hover{
+ width: 300px;
+ height: 100px;
+ border: 0px solid;
+ border-radius: 10px;
+ color: #000;
+ border-radius: 10px;
+ padding: 10px;
+ box-shadow: none !important;
+ background: gray;
+ opacity:;
+}
+
+.profile .start_upload{
+  width: 300px;
+}
+.profile .start_upload:hover{
+  width: 300px;
+}
+.profile .importkey{
+      margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000c20;
+    width: 300px;
+}
+.profile .importkey button{
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.profile .importkey a{
+  float: left;
+  margin-top: 10px;
+}
+.profile textarea{
+  height:;
+  width: 300px;
+}
+.profile p{
+  width: 300px;
+}
+.stage .keypair-links{
+      background: #fff;
+    padding: 10px;
+    color: #33587d;
+  margin-bottom: 0px;
+    display: none;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.stage .keypair-links p{
+  width:250px;
+  margin: 0px;
+  margin-left: -10px;
+}
+.profile .profile_ssh_private_key{
+  width: 300px;
+  overflow: hidden;
+}
+
+.profile .profile_ssh_private_key .avatar_upload{
+  width: 300px
+}
+.profile .profile_ssh_private_key .btn{
+  margin-bottom: 40px;
+  width: 300px;
+}
+.mfa .mfa-qrcode{
+  float: none;
+  position: relative;
+    margin: 20px;
+    margin-left: -20px;
+}
+.mfa .mfa-qrcode img {
+  width: 320px;
+  margin-left: ;
+  float: none;
+  padding: 10px;
+
+}
+.mfa h1{
+  color: #232323;
+}
+.mfa h4{
+  color: gray;
+}
+.mfa .show-backup-code{
+  width: ;
+}
+.mfa .backup-code{
+  width: 100px;
+  position: relative;
+}
+.mfa .totp-token{
+  width: 300px;
+}
+
+.mfa .btn{
+  width: 300px;
+ display: block ;
+ margin-top: 10px;
+}
+.sweet-alert .sa-button-container .cancel{
+  width: 125px;
+}
+.sweet-alert .sa-button-container .confirm{
+  width: 125px;
+}
+
+.theme-default .navbar-header, .theme-default .navbar-right {
+    margin-right: 0;
+    height: 50px !important;
+    line-height: 10px !important;
+    padding-top: 0;
+}
+.navbar-fixed-top.app-toolbar.navbar{
+  background: white;
+  height: 70px !important;
+}
+
+div.mainapp-wrapper{
+  margin-top: 100px;
+}
+.nav-justified{
+  width: 100px;
+}
+.nav-pills.nav-justified{
+  width:100%;
+}
+ul.nav-pills {
+    border-bottom: none;
+    box-shadow: none;
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+}
+#company-projects .add-project-btn{
+      margin-top: -145px;
+    background: #5578B1;
+    float: right;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+
+}            
