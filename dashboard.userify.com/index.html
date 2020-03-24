@@ -3437,7 +3437,6 @@ div.project_matrix .user_column_top_cell {
   border: none;
   padding: 0;
   margin: 0;
-  border-radius: 5px;
   height: 60px;
 }
 
@@ -3476,13 +3475,13 @@ div.project_matrix .user_column_top_cell {
 
 .project_user_row {
   position: relative;
-    cursor: default;
-    padding: 0;
-    height: 81px;
-    min-height: 81px;
-    max-height: 81px;
-    overflow: hidden;
-    margin-top: 2px;
+  cursor: default;
+  padding: 0;
+  height: 81px;
+  min-height: 81px;
+  max-height: 81px;
+  overflow: hidden;
+  margin-top: 2px;
 }
 
 .project_user {
@@ -3536,8 +3535,6 @@ div.project_matrix {
 .project_matrix_table {
     float: left;
     padding: 0;
-    overflow-x: hidden;
-    overflow-x: auto;
     width: 100%;
     border-radius: 10px;
     border-top-left-radius: 0px;
@@ -3546,13 +3543,9 @@ div.project_matrix {
 
 .stage table.outer_project {
     margin-top: 0;
-    min-width: auto;
     width: 100%;
     border: none;
     position: relative;
-    /*
-    margin-top: 4.5rem;
-    */
 }
 
 
@@ -3782,7 +3775,7 @@ tr.project_menu_row td {
   text-align: center;
   background: white;
   margin-top: 40px;
-  min-width: 150px !important;
+  min-width: 150px;
 }
 
 .theme-dark .modified-bootstrap .project_matrix td {
@@ -15301,7 +15294,8 @@ Promote
           </div>
 
           <div class="project_matrix no-padding">
-              <div class="user_cells_column">
+              <div class="project_info">
+                <div class="user_cells_column">
                   <div class="user_column_top_cell">
                       <div style="
                               overflow: hidden;
@@ -15334,6 +15328,7 @@ Promote
                   </div>
               </div>
               <div class="project_matrix_table">
+              </div>
               </div>
           </div>
 

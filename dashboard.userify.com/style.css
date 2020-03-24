@@ -1307,3 +1307,15 @@ button.refresh_company_button:hover{
 div.dataTables_wrapper div.dataTables_length label{
   display: ;
 }
+div.project_matrix{
+     border-radius: 10px;
+     margin-top: 20px;
+     background: white;
+}
+
+.user_cells_column{
+  margin-top: 0px;
+}
+
+.project_info{background: white !important;width: 100%;height: 100%;}
+
