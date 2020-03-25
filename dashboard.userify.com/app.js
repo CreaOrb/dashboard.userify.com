@@ -4026,8 +4026,8 @@ app.click_project_header = function(obj, e, args) {
   // tabled attempt to create a whole new management panel
   /*
   var pmgmt = $(".stage .project_management");
-  var table = $("<table class=outer_project>");
-  var header = $("<tr class=project_header_row>");
+  var table = $("<table class=outer_project table-fixed->");
+  var header = $("<tr class=project_header_row sticky-top>");
   _.each(args.children, function(child) {
     var td = $("<td>");
     td.attr("data-ah-action", "project_header");
@@ -4145,11 +4145,14 @@ app.click_project = function(obj, e, args) {
 
   // fixed scrolling
   var cell_column_leftOffset = parseInt($(".stage .user_cells_column").css('left'));
-  $(window).scroll(function() {
+  $("div.project_matrix").scroll(function() {
     $(".stage .user_cells_column").css({
       "left": $(this).scrollLeft() + cell_column_leftOffset
     });
+ 
   });
+
+
 
   var perms = perms || [
     "linux_user_login",
@@ -5188,7 +5191,7 @@ app.click_view_project_servers = function(obj, e, args) {
         app.hide_tips();
 
         $(".stage div.project_matrix").css("padding-left", "0");
-        var table = $("<table style='width: 100%;' class='table table-striped display'>");
+        var table = $("<table style='width: 100%;' class='table table-striped display table-fixed'>");
 
 
         var thead = $("<thead>");

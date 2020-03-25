@@ -455,6 +455,12 @@ ul.nav-pills {
   margin: 30px;
 }
 
+div.project_matrix {
+        width: 100vh !important;
+        height: auto;
+        max-height: 70vh !important;
+        overflow: auto;
+}
 .editable-input textarea.form-control.input-large {
     width: 250px !important;
     padding-right: 10rem;
@@ -607,5 +613,7 @@ ul.nav-pills {
   opacity: 1;
   display: none;
 }
+
+
 
 }            

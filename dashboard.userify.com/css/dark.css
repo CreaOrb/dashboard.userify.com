@@ -3,6 +3,9 @@
   background: #232323;
   color: white
 }
+.user_cells_column .fa-search{
+  color: #ffffff3d;
+}
 #company-policies label{
   color: #ffffffc9
 }
@@ -35,6 +38,15 @@ div.dataTables_wrapper div.dataTables_filter input{
   border: 0px solid;
   padding: 9px;
 }
+
+div.project_matrix {
+    width: 155vh !important;
+    height: auto;
+    max-height: 70vh !important;
+    overflow: auto;
+    background: #2a2a2a;
+}
+
 .qtib h5{
   color: white;
 }
@@ -1383,13 +1395,13 @@ color: #FFFFFFB3;
 .life_menu::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  background-color: #F5F5F5;
+  background-color: #555555;
 }
 
 .life_menu::-webkit-scrollbar
 {
   width: 3px;
-  background-color: #F5F5F5;
+  background-color: #555555;
 }
 .life_menu::-webkit-scrollbar-thumb
 {
@@ -1401,13 +1413,13 @@ color: #FFFFFFB3;
 ::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  background-color: #F5F5F5;
+  background-color: #555555;
 }
 
 ::-webkit-scrollbar
 {
   width: 3px;
-  background-color: #F5F5F5;
+  background-color: #555555;
 }
 ::-webkit-scrollbar-thumb
 {
@@ -2351,6 +2363,7 @@ button.refresh_company_button{
   opacity: 1;
   display: none;
 }
+
 
 
 
