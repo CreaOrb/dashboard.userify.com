@@ -3,6 +3,12 @@
   background: #232323;
   color: white
 }
+
+.stage .keypair-links{
+  background: #232323;
+  border: 0px solid;
+  color: white;
+}
 .user_cells_column .fa-search{
   color: #ffffff3d;
 }
@@ -117,7 +123,7 @@ body.theme-default {
   }
 
 h4 {
-  color: #555;
+  color: #9a9a9a;
   border-color: #0d0d0d;
   margin: 1rem 0 1rem 0;
 }
@@ -166,7 +172,7 @@ a,
 a:hover,
 a:focus {
   color: #ffffff;
-  color: #ffffff;
+  color: #fff;
 }
 
 .qtip-bootstrap {
